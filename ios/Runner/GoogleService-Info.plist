@@ -32,5 +32,22 @@
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:336236629096:ios:1800dfe799c63c4d81bfdd</string>
+    <!-- Put me in the [my_project]/ios/Runner/Info.plist file -->
+<!-- Google Sign-in Section -->
+    <key>CFBundleURLTypes</key>
+    <array>
+	    <dict>
+		    <key>CFBundleTypeRole</key>
+		    <string>Editor</string>
+		    <key>CFBundleURLSchemes</key>
+		    <array>
+			<!-- TODO Replace this value: -->
+			<!-- Copied from GoogleService-Info.plist key REVERSED_CLIENT_ID -->
+			    <string>com.googleusercontent.apps.336236629096-lun4k9orl54q7nmoea8c662e7f3rpab8</string>
+		    </array>
+	    </dict>
+    </array>
+<!-- End of the Google Sign-in Section -->
+    
 </dict>
 </plist>
